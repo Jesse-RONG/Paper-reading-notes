@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 实验产生的数据 / 模型文件（大文件不进仓库）
+*.pth
+*.ckpt
+data/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 如果不想把论文 PDF 传上 GitHub（版权/仓库体积考虑），取消下面这行的注释
+# *.pdf
